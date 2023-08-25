@@ -39,6 +39,6 @@ Saving the model using pickle and joblib methods for future use.
 4. Feel free to modify the code, experiment with different techniques, and contribute to the projects.
 
 ## Contact
-If you have any questions, suggestions, or would like to collaborate, please feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions, suggestions, or would like to collaborate, please feel free to contact me at shreeram.dangal@gmail.com.
 
 Happy exploring and learning from these machine learning projects!
