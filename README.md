@@ -1,4 +1,4 @@
-# Machine Learning Projects: Per Capita Income, 
+# Machine Learning Projects:
 
 Welcome to my machine-learning projects repository! This repository contains separate projects aimed at per capita income using various machine learning techniques.
 
@@ -29,6 +29,27 @@ Saving the model using pickle and joblib methods for future use.
 - `Linear_Regression_per capita income-Copy1`: Jupyter Notebook containing the linear regression implementation.
 - `multiple_linear_regression.ipynb`: Notebook for the multiple linear regression analysis.
 - `gradient_descent.ipynb`: Notebook demonstrating the use of gradient descent.
+
+  ## Project 2: Multiple Linear Regression for Predicting Salary of New Hires
+
+  ### Description
+This project uses multiple linear regression to predict the salary of new hires based on their experience, test scores and interview scores. The data is obtained from a CSV file that contains the following columns: experience, test_score, interview_score and salary.
+
+### Techniques Used
+Importing the necessary libraries such as pandas, numpy, sklearn and word2number.
+Loading the data from the csv file into a pandas dataframe.
+Converting the experience column from words to numbers using word2number library.
+Handling any missing values in the data by filling them with the mean values.
+Splitting the data into features (X) and target (y). In this case, X will be a matrix of experience, test_score and interview_score, and y will be a vector of salary.
+Creating and fitting a multiple linear regression model using sklearn.
+Evaluating the model performance by calculating the coefficient of determination (R-squared) and the mean squared error (MSE).
+Predicting the salary of new hires using the model.
+
+### Files
+-  hiring.csv The dataset used for training and testing the models.
+-  jupyter notebook multiple_linear_regression.ipynb
+
+  
 
 
 
