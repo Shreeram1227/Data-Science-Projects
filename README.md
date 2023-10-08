@@ -91,17 +91,18 @@ This project is dedicated to predicting the prices of used cars based on various
 -Identified XGBoost as the superior model due to its exceptional performance metrics
 
 ## Model Implementation:
-Serialized the finalized XGBoost model into used_car_model.pkl utilizing the pickle library for easy future deployments
+Serialized the finalized XGBoost model into `used_car_model.pkl` utilizing the pickle library for easy future deployments
 
 ## How to Use the Model
 
 - Ensure the installation of necessary libraries: pandas, numpy, pickle, xgboost, and matplotlib.
--with open('used_car_model.pkl', 'rb') as file:
-    'loaded_model = pickle.load(file)'
+-with open(`used_car_model.pkl`, 'rb') as file:
+    ```loaded_model = pickle.load(file)```
 - Prepare fresh data for prediction, ensuring it mirrors the format adopted during training.
 - Implement one-hot encoding and scaling on the new data to match the training data structure.
 Employ the loaded model to predict car prices
-'predicted_price = loaded_model.predict(new_data_scaled)'
+
+```predicted_price = loaded_model.predict(new_data_scaled)```
 
 ## Conclusion
 This endeavour exemplifies the meticulous process involved in devising a machine learning model tailored for predicting used car prices. After rigorous optimization, the XGBoost model emerged as the top performer, making it an invaluable asset for platforms or applications offering used car price estimations. The serialized model ensures that this tool can be effortlessly integrated into various applications, promising accurate and reliable price predictions for used cars.
