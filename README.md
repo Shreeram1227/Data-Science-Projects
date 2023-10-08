@@ -27,6 +27,7 @@ Saving the model using pickle and joblib methods for future use.
 - `multiple_linear_regression.ipynb`: Notebook for the multiple linear regression analysis.
 - `gradient_descent.ipynb`: Notebook demonstrating the use of gradient descent.
 
+
   ## Project 2: Predicting Salary of New Hires by using Multiple Linear Regression
 
   ### Description
@@ -47,16 +48,71 @@ Predicting the salary of new hires using the model.
 -  jupyter notebook multiple_linear_regression.ipynb
 
   
-
-
-
 ## How to Use
 1. Clone this repository to your local machine.
 2. Navigate to the respective project folder (e.g., `Housing_Price_Prediction` or `Car_Price_Prediction`).
 3. Open the Jupyter Notebook files to explore the code, methodology, and results.
 4. Feel free to modify the code, experiment with different techniques, and contribute to the projects.
 
-## Contact
-If you have any questions, suggestions, or would like to collaborate, please feel free to contact me at shreeram.dangal@gmail.com.
 
-Happy exploring and learning from these machine learning projects!
+## Project 3: Used Car Price Prediction
+
+### Project Overview
+This project is dedicated to predicting the prices of used cars based on various features contained within the cars.csv dataset. Encompassing the entire data science pipeline, this project spans from the initial data preprocessing stages to the final model evaluation, providing a comprehensive insight into used car price prediction.
+
+## Objectives
+-Data Cleaning and Preprocessing: Efficiently handle missing values, eliminate outliers, and remove unnecessary columns to ensure data quality.
+-Exploratory Data Analysis (EDA): Visualize the dataset to unearth patterns, distributions, and relationships between features.
+-Feature Engineering: Convert categorical variables through one-hot encoding and normalize numerical features.
+-Model Selection and Training: Experiment with multiple regression models, train them, and evaluate their performance to select the optimal model.
+-Model Evaluation: Assess the models using metrics like R^2, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE) to determine accuracy and reliability.
+-Model Implementation: Serialize the best-performing model, making it ready for future predictions.
+
+## Methodology
+# Data Cleaning and Preprocessing:
+-Handled missing values using mode imputation.
+-Identified and removed outliers based on the IQR method.
+-Eliminated unnecessary columns, emphasizing the most impactful features
+
+## Exploratory Data Analysis (EDA):
+-Visualized the distribution of car prices to understand their spread.
+-Investigated the relationships between various features and the target variable, offering insights into potential correlations.
+
+## Feature Engineering:
+-Transformed categorical variables using one-hot encoding.
+-Scaled numerical attributes employing the StandardScaler, ensuring data standardization.
+
+## Model Selection and Training:
+-Divided the data into distinct training and testing sets.
+-Trained several regression models, including Random Forest Regressor, Linear Regression, Gradient Boosting Regressor, and XGBoost, comparing their performances.
+
+## Model Evaluation:
+-Applied metrics such as R^2, MAE, and RMSE for thorough model evaluation.
+-Identified XGBoost as the superior model due to its exceptional performance metrics
+
+## Model Implementation:
+Serialized the finalized XGBoost model into used_car_model.pkl utilizing the pickle library for easy future deployments
+
+## How to Use the Model
+
+- Ensure the installation of necessary libraries: pandas, numpy, pickle, xgboost, and matplotlib.
+-with open('used_car_model.pkl', 'rb') as file:
+    'loaded_model = pickle.load(file)'
+- Prepare fresh data for prediction, ensuring it mirrors the format adopted during training.
+- Implement one-hot encoding and scaling on the new data to match the training data structure.
+Employ the loaded model to predict car prices
+'predicted_price = loaded_model.predict(new_data_scaled)'
+
+## Conclusion
+This endeavour exemplifies the meticulous process involved in devising a machine learning model tailored for predicting used car prices. After rigorous optimization, the XGBoost model emerged as the top performer, making it an invaluable asset for platforms or applications offering used car price estimations. The serialized model ensures that this tool can be effortlessly integrated into various applications, promising accurate and reliable price predictions for used cars.
+
+
+
+## Contact
+If you have any questions, or suggestions, or would like to collaborate, please feel free to contact me at shreeram.dangal@gmail.com.
+
+Happy exploring and learning from these machine-learning projects!
+
+
+
+
