@@ -42,8 +42,8 @@ Evaluating the model performance by calculating the coefficient of determination
 Predicting the salary of new hires using the model.
 
 ### Files
--  hiring.csv The dataset used for training and testing the models. 
--  jupyter notebook New_employee_salary_prediction.ipynb
+-  `hiring.csv` The dataset used for training and testing the models. 
+-  jupyter notebook `New_employee_salary_prediction.ipynb`
 
   
 ## How to Use
@@ -137,7 +137,9 @@ Analyzed the top companies, job locations, and salary estimates to provide a com
 Employed bar charts and histograms to effectively communicate the dataset's distributions and key patterns.
 
 ### How to Use the Analysis
+
 -Ensure the installation of necessary libraries: pandas, numpy, matplotlib, and seaborn.
+-There is CSV file for the project called `glassdoor_jobs.csv`
 -Load the Jupyter notebook (`glassdoor_jobs_analysis.ipynb`) and run the cells to replicate the analysis.
 -Customize or extend the analysis by adding your code or additional visualizations as needed.
 
