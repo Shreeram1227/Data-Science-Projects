@@ -115,5 +115,39 @@ If you have any questions, or suggestions, or would like to collaborate, please 
 Happy exploring and learning from these machine-learning projects!
 
 
+## Project 4: Glassdoor Data Science Jobs Analysis
 
 
+### Project Overview:
+This project offers an in-depth analysis of the data science job market, utilizing a dataset extracted from 1,500 job postings on Glassdoor.com. From initial data preprocessing to insightful visualizations, this project provides a comprehensive view of the data science job landscape.
+
+### Objectives:
+-Data Cleaning and Preprocessing: Efficiently handle missing values, address outliers, and ensure data quality for accurate analysis.
+-Exploratory Data Analysis (EDA): Visualize the dataset to discover patterns, distributions, and relationships between features.
+-Descriptive Analysis: Understand distributions like company ratings, and founding years, and delve into the top hiring companies and job locations.
+-Feature Engineering: Focus on the most impactful features to drive insights and visualizations.
+-Visualization: Craft informative visualizations that communicate the state and nuances of the data science job market.
+-Insight Generation: Extract valuable insights from the visualizations and analysis, providing a snapshot of the current job market for data scientists.
+### Methodology
+# Data Cleaning and Preprocessing:
+Managed missing values through median imputation and replaced placeholders.
+Detected and capped outliers using the IQR method for numerical columns.
+Streamlined the dataset by focusing on the most relevant features for analysis.
+
+# Exploratory Data Analysis (EDA):
+Visualized the distribution of company ratings and founding years to understand their spread.
+Investigated top hiring companies and job locations, offering insights into the demand landscape of the data science field.
+
+# Descriptive Analysis: 
+Analyzed the top companies, job locations, and salary estimates to provide a comprehensive view of the data science job market.
+
+# Visualization:
+Employed bar charts and histograms to effectively communicate the dataset's distributions and key patterns.
+
+### How to Use the Analysis
+-Ensure the installation of necessary libraries: pandas, numpy, matplotlib, and seaborn.
+-Load the Jupyter notebook (`glassdoor_jobs_analysis.ipynb`) and run the cells to replicate the analysis.
+-Customize or extend the analysis by adding your code or additional visualizations as needed.
+
+### Conclusion
+This project showcases a thorough analysis of the data science job market based on job postings from Glassdoor.com. Through meticulous preprocessing and insightful visualizations, a clear picture of the current state of data science jobs emerges. This analysis serves as a valuable resource for job seekers, hiring managers, and anyone interested in the data science field, offering a snapshot of the current trends, demands, and characteristics of the market.
