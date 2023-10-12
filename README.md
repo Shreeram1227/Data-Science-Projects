@@ -109,12 +109,6 @@ This endeavour exemplifies the meticulous process involved in devising a machine
 
 
 
-## Contact
-If you have any questions, or suggestions, or would like to collaborate, please feel free to contact me at shreeram.dangal@gmail.com.
-
-Happy exploring and learning from these machine-learning projects!
-
-
 ## Project 4: Glassdoor Data Science Jobs Analysis
 
 
@@ -151,3 +145,8 @@ Employed bar charts and histograms to effectively communicate the dataset's dist
 
 ### Conclusion
 This project showcases a thorough analysis of the data science job market based on job postings from Glassdoor.com. Through meticulous preprocessing and insightful visualizations, a clear picture of the current state of data science jobs emerges. This analysis serves as a valuable resource for job seekers, hiring managers, and anyone interested in the data science field, offering a snapshot of the current trends, demands, and characteristics of the market.
+
+## Contact
+If you have any questions, or suggestions, or would like to collaborate, please feel free to contact me at shreeram.dangal@gmail.com.
+
+Happy exploring and learning from these machine-learning projects!
