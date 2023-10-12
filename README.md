@@ -23,9 +23,7 @@ Saving the model using pickle and joblib methods for future use.
 
 ### Files
 - `canada_per_capita_income.csv`: The dataset used for training and testing the models.
-- `Linear_Regression_per capita income-Copy1`: Jupyter Notebook containing the linear regression implementation.
-- `multiple_linear_regression.ipynb`: Notebook for the multiple linear regression analysis.
-- `gradient_descent.ipynb`: Notebook demonstrating the use of gradient descent.
+- `Per_capita_income_canada`: Jupyter Notebook containing the linear regression implementation.
 
 
   # Project 2: Predicting Salary of New Hires by using Multiple Linear Regression
@@ -45,6 +43,7 @@ Predicting the salary of new hires using the model.
 
 ### Files
 -  hiring.csv The dataset used for training and testing the models.
+-  
 -  jupyter notebook multiple_linear_regression.ipynb
 
   
