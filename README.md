@@ -1,5 +1,5 @@
 
-## Project 1: Per capita income prediction
+# Project 1: Per capita income prediction
 
 ### Description
 This project aims to use linear regression to predict the per capita income of Canada in 2020 based on the historical data from 1970 to 2016. The data is obtained from a CSV file that contains the year and the corresponding per capita income in Canadian dollars
@@ -28,7 +28,7 @@ Saving the model using pickle and joblib methods for future use.
 - `gradient_descent.ipynb`: Notebook demonstrating the use of gradient descent.
 
 
-  ## Project 2: Predicting Salary of New Hires by using Multiple Linear Regression
+  # Project 2: Predicting Salary of New Hires by using Multiple Linear Regression
 
   ### Description
 This project uses multiple linear regression to predict the salary of new hires based on their experience, test scores and interview scores. The data is obtained from a CSV file that contains the following columns: experience, test_score, interview_score and salary.
@@ -55,7 +55,7 @@ Predicting the salary of new hires using the model.
 4. Feel free to modify the code, experiment with different techniques, and contribute to the projects.
 
 
-## Project 3: Used Car Price Prediction
+# Project 3: Used Car Price Prediction
 
 ### Project Overview
 This project is dedicated to predicting the prices of used cars based on various features contained within the cars.csv dataset. Encompassing the entire data science pipeline, this project spans from the initial data preprocessing stages to the final model evaluation, providing a comprehensive insight into used car price prediction.
@@ -109,7 +109,7 @@ This endeavour exemplifies the meticulous process involved in devising a machine
 
 
 
-## Project 4: Glassdoor Data Science Jobs Analysis
+# Project 4: Glassdoor Data Science Jobs Analysis
 
 
 ### Project Overview:
@@ -122,20 +122,20 @@ This project offers an in-depth analysis of the data science job market, utilizi
 -Feature Engineering: Focus on the most impactful features to drive insights and visualizations.
 -Visualization: Craft informative visualizations that communicate the state and nuances of the data science job market.
 -Insight Generation: Extract valuable insights from the visualizations and analysis, providing a snapshot of the current job market for data scientists.
-### Methodology
-# Data Cleaning and Preprocessing:
+### Methodology:
+#### Data Cleaning and Preprocessing:
 Managed missing values through median imputation and replaced placeholders.
 Detected and capped outliers using the IQR method for numerical columns.
 Streamlined the dataset by focusing on the most relevant features for analysis.
 
-# Exploratory Data Analysis (EDA):
+#### Exploratory Data Analysis (EDA):
 Visualized the distribution of company ratings and founding years to understand their spread.
 Investigated top hiring companies and job locations, offering insights into the demand landscape of the data science field.
 
-# Descriptive Analysis: 
+#### Descriptive Analysis: 
 Analyzed the top companies, job locations, and salary estimates to provide a comprehensive view of the data science job market.
 
-# Visualization:
+#### Visualization:
 Employed bar charts and histograms to effectively communicate the dataset's distributions and key patterns.
 
 ### How to Use the Analysis
