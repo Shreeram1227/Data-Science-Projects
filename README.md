@@ -42,9 +42,8 @@ Evaluating the model performance by calculating the coefficient of determination
 Predicting the salary of new hires using the model.
 
 ### Files
--  hiring.csv The dataset used for training and testing the models.
--  
--  jupyter notebook multiple_linear_regression.ipynb
+-  hiring.csv The dataset used for training and testing the models. 
+-  jupyter notebook New_employee_salary_prediction.ipynb
 
   
 ## How to Use
