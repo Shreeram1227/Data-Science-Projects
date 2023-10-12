@@ -69,31 +69,31 @@ This project is dedicated to predicting the prices of used cars based on various
 -Model Implementation: Serialize the best-performing model, making it ready for future predictions.
 
 ## Methodology
-# Data Cleaning and Preprocessing:
+#### Data Cleaning and Preprocessing:
 -Handled missing values using mode imputation.
 -Identified and removed outliers based on the IQR method.
 -Eliminated unnecessary columns, emphasizing the most impactful features
 
-## Exploratory Data Analysis (EDA):
+#### Exploratory Data Analysis (EDA):
 -Visualized the distribution of car prices to understand their spread.
 -Investigated the relationships between various features and the target variable, offering insights into potential correlations.
 
-## Feature Engineering:
+#### Feature Engineering:
 -Transformed categorical variables using one-hot encoding.
 -Scaled numerical attributes employing the StandardScaler, ensuring data standardization.
 
-## Model Selection and Training:
+#### Model Selection and Training:
 -Divided the data into distinct training and testing sets.
 -Trained several regression models, including Random Forest Regressor, Linear Regression, Gradient Boosting Regressor, and XGBoost, comparing their performances.
 
-## Model Evaluation:
+#### Model Evaluation:
 -Applied metrics such as R^2, MAE, and RMSE for thorough model evaluation.
 -Identified XGBoost as the superior model due to its exceptional performance metrics
 
-## Model Implementation:
+#### Model Implementation:
 Serialized the finalized XGBoost model into `used_car_model.pkl` utilizing the pickle library for easy future deployments
 
-## How to Use the Model
+### How to Use the Model
 
 - Ensure the installation of necessary libraries: pandas, numpy, pickle, xgboost, and matplotlib.
 -with open(`used_car_model.pkl`, 'rb') as file:
